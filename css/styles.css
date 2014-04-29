@@ -6,6 +6,9 @@
 ***************************************************
 			      Reset
 ***************************************************/
+body {
+	background-color : black;
+	}
 
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, ol, ul, li, form, label, legend, caption, aside, details, figcaption, figure, footer,header, hgroup, menu, nav, section, summary {
    margin: 0;
@@ -109,7 +112,7 @@ h3 {
 h4 {
 	font-size: 14px;
 	line-height: 0.9;
-	color: #CC3333;
+	//color: #CC3333;
 	text-align: left;
 	margin-bottom: 8px;
 	padding-top: 3px;
@@ -259,7 +262,7 @@ a.photo_hover2: hover {
 
 footer {
 	position: relative;
-	height: 90px;
+	//height: 30px;
 	clear: both;
 	width: 100%;
 	background-image: url(../images/footer.png);
@@ -415,7 +418,7 @@ nav ul li a.current {
 	top: 1px;
 }
 
-//-----以下、追加事項-------
+//----------------以下、追加事項-----------------
 
 table {
 	border-collapse:colapse;
@@ -447,8 +450,11 @@ h2 {
 	font-size:25px;
 	}
 .holder_content {
-	margin-bottom:20px;
+	margin:10px;
+	padding : 10px;
 	border-bottom:solid 1px #A3A3A3;
+	border-top : solid 1px #A3A3A3;
+	
 	}
 p {
 	font-size:20px;
@@ -458,5 +464,64 @@ p {
 #intro {
 	margin-bottom:10px;
 	}
-	
+.bg {
+	background-color:white;
+	}
+th ,td {
+	border:solid 1px;
+	margin:0px;
+	}
+.clearfix:after{
+	content:".";
+	display:block;
+	height: 0.1px;
+	line-height:0;
+	font-size: 0.1em;
+	clear: both;
+	visibility: hidden;
+}
 
+#spot {
+	width:980px;
+	margin:auto;
+	border-bottom:solid 1px #A3A3A3;	
+	}
+#spot li {
+	font-size:50px;
+	}
+	
+#twittertag {
+	padding-top:10px;
+	width:980px;
+	margin:auto;
+	font-size:40px;
+	text-decoration:none;
+	}
+
+#twittertag a {
+    //color: #03c;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    -ms-transition: 0.5s;
+    transition: 0.5s;
+color:#0084b4;
+
+}
+#twittertag a:hover {
+    color: #39f;	
+	}
+
+h4 {
+	margin-top:15px;
+	font-size:40px;
+	color:#0084b4;
+	float:left;
+	
+}
+#twittertag li{
+	float:left;
+	margin-left:10px;
+	//margin-top:0px;
+	}
+	
