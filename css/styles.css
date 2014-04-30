@@ -51,7 +51,7 @@ body {
 	color: #575757;
 	margin: 0 0 1px; height: 100%; width:100%;
 	line-height: 1.7;
-	border-top: 10px solid black;
+	border-top: 40px solid black;
 }
 
 p {
@@ -262,7 +262,7 @@ a.photo_hover2: hover {
 
 footer {
 	position: relative;
-	//height: 30px;
+	height: 30px;
 	clear: both;
 	width: 100%;
 	background-image: url(../images/footer.png);
@@ -524,4 +524,5 @@ h4 {
 	margin-left:10px;
 	//margin-top:0px;
 	}
+
 	
