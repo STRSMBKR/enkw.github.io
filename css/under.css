@@ -1,0 +1,27 @@
+
+@media screen and(man-width: 768px){
+
+body {
+	background-color:black;
+	}
+
+#container {
+	width:900px;
+	margin:auto;
+	}
+
+header a {
+	width: 600px;
+	height: 150px;
+	}
+#tableedit {
+	font-size:40px;
+	float:none;
+	}
+	
+#box {
+	float:none;
+	font-size:40px;
+	}
+	
+	
