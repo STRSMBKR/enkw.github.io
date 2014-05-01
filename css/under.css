@@ -87,8 +87,8 @@ h4 {
 #twittertag a {
 	width:40%
 	padding-top:40px;
-	margin: 65px auto;
-	//font-size:20px;
+	margin: 65px;
+	font-size:55px;
 	}
 
 .clearfix:after{
@@ -119,13 +119,16 @@ h4 {
 	}
 
 footer{
-	font-size:20px;
+	height:300px;
+	font-size:25px;
 	color:white;
-	background-color:black;
+	background-color:#696969;
+	
 	}
 .container{
 	width:60%;
 	margin: auto;
+	padding-top:100px;
 	}
 #spot li {
 	//font-size:60px;
